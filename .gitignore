@@ -1,0 +1,17 @@
+# Local tools and credentials
+.tokensave/
+/Private/
+.env
+.env.*
+!.env.example
+
+# Obsidian plugins contain executable code, credentials and generated certificates.
+.obsidian/plugins/
+.obsidian/workspace*.json
+.obsidian/cache/
+.obsidian/appearance.json
+.obsidian/hotkeys.json
+.obsidian/graph.json
+.trash/
+.DS_Store
+Thumbs.db
